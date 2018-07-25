@@ -27,7 +27,7 @@ public class Main {
         System.out.println(noZ(three));
     }
 
-    static List<String> noZ(List<String> list) {
+    private static List<String> noZ(List<String> list) {
       return list.stream().filter( s -> !s.contains( "z" ) ).collect( Collectors.toList() );
     }
 }
