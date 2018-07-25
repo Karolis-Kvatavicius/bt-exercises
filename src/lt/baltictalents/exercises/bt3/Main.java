@@ -11,10 +11,8 @@ public class Main {
     private static void middleThree(String string){
         if (string != null && string.length() >= 3 && string.length() % 2 != 0 ) {
             System.out.println(string.substring( (string.length()-3)/2, ((string.length()-3)/2) + 3));
-        } //else {
-//            System.out.println("Wrong string");
-//        }
-//        midl.substring(  )
+        }
+        System.out.println("Changes");
 
     }
 }
