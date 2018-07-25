@@ -12,5 +12,7 @@ public class Main {
         if (string != null && string.length() >= 3 && string.length() % 2 != 0 ) {
             System.out.println(string.substring( (string.length()-3)/2, ((string.length()-3)/2) + 3));
         }
+        System.out.println("Changes");
+
     }
 }
