@@ -11,7 +11,7 @@ public class Main {
         System.out.println(plusOut( "adasd", "" ));
         System.out.println(plusOut( "", "" ));
         // TODO 13 comes through as 31, need to ban this
-        System.out.println(plusOut( "13231", "31" ));
+        System.out.println(plusOut( "13231", "31" )); // result is 13+31, should be +++31.
 
     }
 
