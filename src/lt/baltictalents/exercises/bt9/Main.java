@@ -13,9 +13,13 @@ public class Main {
 
 
         System.out.println(addStar( list1 ));
+        System.out.println(addStar( new ArrayList<>(  ) ));
+        System.out.println(addStar( null ));
     }
 
     private static List<String> addStar(List<String> list) {
+       if (list == null)
+           return list;
 
        return list.stream().map( s -> s += "*").collect( Collectors.toList() );
     }
